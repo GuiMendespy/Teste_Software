@@ -4,7 +4,7 @@ class AlunoAcademia:
         self.sexo = sexo  # "M" ou "F"
         self.peso = peso  # kg
         self.altura = altura  # metros
-        self.idade = idade
+        self.idade = idade #idade em anos
 
     def calcular_imc(self) -> float:
         """IMC = peso / (altura x altura). Peso e altura devem ser positivos."""
